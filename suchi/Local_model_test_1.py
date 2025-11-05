@@ -9,7 +9,7 @@ load_dotenv()
 OLLAMA_BASE = os.getenv("OLLAMA_API_BASE", "http://localhost:11434")
 MODEL = os.getenv("OLLAMA_MODEL", "llama3.2:3b")
 
-prompt = "Write a short poem about Kerala."
+prompt = "what if apple not fall on enstine's head"
 
 print(f"\n🧠 Using model: {MODEL}\n")
 print(f"💬 Prompt: {prompt}\n")
